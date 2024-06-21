@@ -10,26 +10,30 @@
     display: block;
   }*/
 
-  .container{
-    background-color: red;
-    margin-left:15%;
-    padding:1px 16px;
-    height:1000px;
-  } 
 
 body {
     margin: 0;
   }
   
+  .container{
+    background-color: red;
+    margin-left:220px;
+    padding:1px 16px;
+    height:100%;
+    top:80px;
+    position: absolute;
+    z-index: -1;
+  } 
+  
   ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 15%;
     background-color: #f1f1f1;
     position: fixed;
     height: 100%;
     overflow: auto;
+    width: 220px;
   }
   
   li {
@@ -49,16 +53,24 @@ body {
     color: white;
   }
 
+  .profileImage {
+    height: 150px;
+    border-radius: 30%;
+  }
+
   .header {
-    /* padding: 10px 16px; */
     background: #555;
     color: #f1f1f1;
     position: fixed;
     top: 0;
-    width: 100%;
+    right:0;
+    margin-left:220px;
+    width: calc(100% - 220px);;
     height:80px;
   }
 
   .side-nav{
-    margin-top: 80px;
+    margin-top: 0px;
+    width: 150px;
+    position: fixed;
   }
