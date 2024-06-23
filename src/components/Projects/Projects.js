@@ -1,6 +1,4 @@
-import { Sidebar, Menu, MenuItem } from "react-pro-sidebar";
-import { Link } from "react-router-dom";
-import React, { Component } from "react";
+import React from "react";
 
 function Projects() {
   return (

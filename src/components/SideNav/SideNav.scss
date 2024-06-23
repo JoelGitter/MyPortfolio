@@ -1,0 +1,121 @@
+$componentSize: 220;
+$maskSize: 70px;
+$speed: 1.7s;
+$borderOffset: 8px;
+
+$backgroundColor: white;
+$animationProps: $speed linear infinite alternate;
+
+@keyframes mask-move {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX($componentSize - $maskSize);
+  }
+}
+
+@keyframes mask-inner-move {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-($componentSize - $maskSize));
+  }
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+
+.focus {
+  font-family: 'Courier New';
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: black;
+  letter-spacing: 0.2rem;
+  line-height: 1;
+  position: relative;
+  width: $componentSize;
+  &:before {
+    content: "Growth";
+    filter: blur(3px);
+  }
+  &:after {
+    content: "";
+    position: absolute;
+    width: $maskSize;
+    height: calc(100% + #{$borderOffset});
+    top: -($borderOffset / 2);
+    left: 0;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    animation: mask-move $animationProps;
+  }
+  &--mask {
+    overflow: hidden;
+    position: absolute;
+    width: $maskSize;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: $backgroundColor;
+    animation: mask-move $animationProps;
+    &-inner {
+      animation: mask-inner-move $animationProps;
+    }
+  }
+}
+
+.signature-name{
+    float:'left';
+    width: 70%;
+}
+
+.signature-word{
+    float:'left';
+    width: 30%;
+}
+
+.signature{
+    padding-top: 10px;
+    font-size: 15px;
+    font-family: 'Courier New'; 
+    display: flex;
+
+}
+
+
+  
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    width: 220px;
+  }
+  
+  li {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+  }
+  
+  li.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  li:hover:not(.active) {
+    background-color: #d1e4e4;
+    color: white;
+  }
+
+  a{
+    text-decoration:dotted;  }

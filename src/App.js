@@ -5,10 +5,10 @@ import {
   Route,
   Navigate,
 } from "react-router-dom";
-import Projects from "./components/Projects";
-import About from "./components/About";
-import SideNav from "./components/SideNav";
-import "./styles/styles.css";
+import Projects from "./components/Projects/Projects";
+import About from "./components/About/About";
+import SideNav from "./components/SideNav/SideNav";
+import "./styles/styles.scss";
 
 function App() {
   return (
