@@ -10,38 +10,32 @@
     display: block;
   }*/
 
-
 body {
-    margin: 0;
-  }
-  
-  .container{
-    background-color: red;
-    margin-left:220px;
-    padding:1px 16px;
-    height:100%;
-    top:80px;
-    position: absolute;
-    z-index: -1;
-  } 
-  .profileImage {
-    height: 150px;
-    border-radius: 30%;
-  }
+  margin: 0;
+  font-family: "Raleway";
+}
 
-  .header {
-    background: white;
-    color: black;
-    position: fixed;
-    top: 0;
-    right:0;
-    margin-left:220px;
-    width: calc(100% - 220px);;
-    height:80px;
-  }
+.container {
+  margin-left: 220px;
+  padding: 1px 16px;
+  top: 80px;
+  position: absolute;
+  z-index: -1;
+}
 
-  .side-nav{
-    margin-top: 0px;
-    width: 150px;
-    position: fixed;
-  }
+.header {
+  background: white;
+  color: black;
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin-left: 220px;
+  width: calc(100% - 220px);
+  height: 80px;
+}
+
+.side-nav {
+  margin-top: 0px;
+  width: 150px;
+  position: fixed;
+}

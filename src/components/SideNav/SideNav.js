@@ -6,11 +6,7 @@ function SideNav() {
   return (
     // <p className="side-nav">hi</p>
     <div className="side-nav">
-      <div class="focus">
-        <div class="focus--mask">
-          <div class="focus--mask-inner">Growth</div>
-        </div>
-      </div>
+      <div className="logo-text">Growth</div>
       <div className="signature">
         <div className="signature-word">
           <div>with</div>
@@ -19,15 +15,15 @@ function SideNav() {
           <div>Joel Henry</div>
         </div>
       </div>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <ul className="navbar-nav mr-auto">
+      <nav className="navbar">
+        <ul>
           <li>
-            <Link to={"/about"} className="nav-link">
+            <Link to={"/about"} style={{ paddingLeft: 20 }}>
               About
             </Link>
           </li>
           <li>
-            <Link to={"/projects"} className="nav-link">
+            <Link to={"/projects"} style={{ paddingLeft: 20 }}>
               Projects
             </Link>
           </li>
