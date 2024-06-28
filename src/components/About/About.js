@@ -25,10 +25,7 @@ function About() {
             I am a User Centered Product Manager with extensive experience in
             B2B saas companies. My career has gone from Analytics to Software
             Engineering to Product Management. I have been with companies at the
-            Seed, Startup, Growth, Expansion, and Maturity stages.{" "}
-          </div>
-          <br />
-          <div>
+            Seed, Startup, Growth, Expansion, and Maturity stages. <br /> <br />
             I am currently executing the vision of{" "}
             <Tooltip content={marketDesc} direction="top">
               <a

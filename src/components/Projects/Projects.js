@@ -5,6 +5,7 @@ function Projects() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
   return (
     <div className="container">
       <h2>Fixed Full-height Side Nav</h2>

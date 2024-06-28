@@ -4,18 +4,47 @@ import {
   Routes,
   Route,
   Navigate,
+  Link,
 } from "react-router-dom";
 import Projects from "./components/Projects/Projects";
 import About from "./components/About/About";
 import SideNav from "./components/SideNav/SideNav";
+import { useState } from "react";
 import "./styles/styles.scss";
 
 function App() {
+  const [isActiveA, setActiveA] = useState(false);
+  const [isActiveB, setActiveB] = useState(false);
+
+  const toggleClass = (button) => {
+    if (button === "a") {
+      setActiveA(true);
+      setActiveB(false);
+    } else {
+      setActiveA(false);
+      setActiveB(true);
+    }
+  };
   return (
     <Router>
       <div>
         <div className="header">
-          <h2>Welcome to React Browser Router Tutorial</h2>
+          <div className="button-container">
+            <button
+              className={
+                isActiveA ? "header-button highlighteda" : "header-button"
+              }
+              onClick={() => toggleClass("a")}>
+              <Link to={"/about"}>About</Link>
+            </button>
+            <button
+              className={
+                isActiveB ? "header-button highlightedb" : "header-button"
+              }
+              onClick={() => toggleClass("b")}>
+              <Link to={"/projects"}>Projects</Link>
+            </button>
+          </div>
         </div>
         <SideNav />
         <Routes>

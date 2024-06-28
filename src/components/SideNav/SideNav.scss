@@ -18,6 +18,7 @@ $logo-margin: 15px;
   font-size: 15px;
   display: flex;
   margin-left: $logo-margin;
+  margin-bottom: 40px;
 }
 
 ul {
@@ -25,7 +26,6 @@ ul {
   margin: 0;
   padding: 0;
   background-color: white;
-  position: fixed;
   height: 100%;
   overflow: auto;
   width: 220px;
@@ -48,17 +48,6 @@ li:hover:not(.active) {
   color: white;
 }
 
-a {
-  color: black;
-  -webkit-text-decoration: dotted;
-  text-decoration: dotted;
-  width: 100%;
-  /* align-items: center; */
-  display: block;
-  display: grid;
-  align-content: center;
-}
-
 a:visited {
   text-decoration: none;
 }
@@ -71,4 +60,18 @@ a:visited {
 
 .navbar {
   margin-top: 30px;
+  // position: fixed;
+  float: left;
+}
+
+.side-nav {
+  margin-top: 0px;
+  width: 150px;
+  float: left;
+}
+
+@media (max-width: 767px) {
+  .side-nav {
+    display: none;
+  }
 }

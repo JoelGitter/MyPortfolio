@@ -1,14 +1,4 @@
-/* ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 60px;
-    background-color: black;
-  }
-  
-  li a {
-    display: block;
-  }*/
+$button-highlighted-color: #b6c7aa;
 
 body {
   margin: 0;
@@ -16,26 +6,74 @@ body {
 }
 
 .container {
-  margin-left: 220px;
   padding: 1px 16px;
   top: 80px;
-  position: absolute;
   z-index: -1;
+  float: right;
+  width: 80%;
 }
 
 .header {
-  background: white;
   color: black;
   position: fixed;
   top: 0;
   right: 0;
   margin-left: 220px;
-  width: calc(100% - 220px);
   height: 80px;
 }
 
-.side-nav {
-  margin-top: 0px;
-  width: 150px;
-  position: fixed;
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.header-button {
+  border-radius: 8px;
+  margin: 20px;
+  width: 80px;
+  height: 30px;
+  border: none;
+  background-color: #d1e4e4;
+  font-size: 17px;
+  transition-duration: 0.4s;
+}
+
+.header-button:hover {
+  background-color: $button-highlighted-color;
+}
+
+@media (max-width: 767px) {
+  .header {
+    width: 100%;
+  }
+}
+
+@media (min-width: 767px) {
+  .header {
+    width: calc(100% - 220px);
+  }
+}
+
+a {
+  color: black;
+  -webkit-text-decoration: dotted;
+  text-decoration: dotted;
+  width: 100%;
+  height: 100%;
+  /* align-items: center; */
+  display: block;
+  display: grid;
+  align-content: center;
+}
+
+.container {
+  margin-top: 100px;
+}
+
+.highlighteda {
+  background-color: $button-highlighted-color;
+}
+
+.highlightedb {
+  background-color: $button-highlighted-color;
 }
