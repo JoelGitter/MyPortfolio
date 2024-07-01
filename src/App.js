@@ -30,19 +30,11 @@ function App() {
       <div>
         <div className="header">
           <div className="button-container">
-            <button
-              className={
-                isActiveA ? "header-button highlighteda" : "header-button"
-              }
-              onClick={() => toggleClass("a")}>
+            <button className="header-button">
               <Link to={"/about"}>About</Link>
             </button>
-            <button
-              className={
-                isActiveB ? "header-button highlightedb" : "header-button"
-              }
-              onClick={() => toggleClass("b")}>
-              <Link to={"/projects"}>Projects</Link>
+            <button className="header-button">
+              <Link to={"/projects"}>Work</Link>
             </button>
           </div>
         </div>

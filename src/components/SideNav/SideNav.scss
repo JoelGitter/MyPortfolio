@@ -10,7 +10,12 @@ $logo-margin: 15px;
 
 .signature-word {
   float: "left";
-  width: 30%;
+  width: 70%;
+}
+
+.about-list-item {
+  border-bottom: 1px solid black;
+  margin-left: 15px;
 }
 
 .signature {
@@ -19,6 +24,8 @@ $logo-margin: 15px;
   display: flex;
   margin-left: $logo-margin;
   margin-bottom: 40px;
+  border-bottom: 1px solid black;
+  border-spacing: 20px;
 }
 
 ul {
@@ -66,8 +73,10 @@ a:visited {
 
 .side-nav {
   margin-top: 0px;
-  width: 150px;
+  width: 250px;
   float: left;
+  border-right: 1px solid black;
+  height: 100vh;
 }
 
 @media (max-width: 767px) {

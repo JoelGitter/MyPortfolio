@@ -7,26 +7,26 @@ function SideNav() {
     // <p className="side-nav">hi</p>
     <div className="side-nav">
       <nav className="navbar">
-        <div className="logo-text">Growth</div>
+        <div className="logo-text">Joel Henry</div>
         <div className="signature">
           <div className="signature-word">
-            <div>with</div>
-          </div>
-          <div className="signature-name">
-            <div>Joel Henry</div>
+            <div>Growth Mindset</div>
           </div>
         </div>
         <ul>
-          <li>
+          {/* <li>
             <Link to={"/about"} style={{ paddingLeft: 20 }}>
               About
             </Link>
-          </li>
+          </li> */}
           <li>
-            <Link to={"/projects"} style={{ paddingLeft: 20 }}>
+            <Link
+              to={"/projects"}
+              style={{ paddingLeft: 20, fontWeight: "bold", fontSize: "17px" }}>
               Projects
             </Link>
           </li>
+          <div className="about-list-item"></div>
         </ul>
       </nav>
     </div>
