@@ -40,7 +40,7 @@ function Projects() {
               </Typography>
             </CardContent>
             <CardActions>
-              <a href="/about">
+              <a href="/marktpos">
                 <Button size="small">More</Button>
               </a>
               <a href="https://www.marktpos.com" target="_blank">
@@ -68,7 +68,7 @@ function Projects() {
               </Typography>
             </CardContent>
             <CardActions>
-              <a href="/about">
+              <a href="/user-vista">
                 <Button size="small">More</Button>
               </a>
               <a href="https://www.uservista.ai" target="_blank">

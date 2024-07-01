@@ -9,6 +9,8 @@ import {
 import Projects from "./components/Projects/Projects";
 import About from "./components/About/About";
 import SideNav from "./components/SideNav/SideNav";
+import MarktPOS from "./components/MarktPOS/MarktPOS";
+import UserVista from "./components/UserVista/UserVista";
 import { useState } from "react";
 import "./styles/styles.scss";
 
@@ -43,6 +45,8 @@ function App() {
           <Route path="*" element={<Navigate to="/about" />} />
           <Route path="/about" element={<About />} />
           <Route exact path="/projects" element={<Projects />} />
+          <Route exact path="/marktpos" element={<MarktPOS />} />
+          <Route exact path="/user-vista" element={<UserVista />} />
         </Routes>
       </div>
     </Router>
