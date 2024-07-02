@@ -12,7 +12,10 @@ import SideNav from "./components/SideNav/SideNav";
 import MarktPOS from "./components/MarktPOS/MarktPOS";
 import UserVista from "./components/UserVista/UserVista";
 import { useState } from "react";
+import ReactGA from "react-ga4";
 import "./styles/styles.scss";
+
+ReactGA.initialize("G-T8J1NFJLVB");
 
 function App() {
   const [isActiveA, setActiveA] = useState(false);
