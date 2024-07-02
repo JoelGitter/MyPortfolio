@@ -9,9 +9,9 @@ function UserVista() {
         I co-founded this company at the end of 2022 because of a hole I saw in
         the marketplace. I noticed that all in-app survey tools were going
         upstream and not servicing startups with a freemium model. I developed
-        the app using Angular, C#, and MongoDB Atlas. I now keep the project
-        alive for whoever wants to use it to create advanced in app surveys for
-        free.
+        the app using <em>Angular</em>, <em>C#</em>, and <em>MongoDB Atlas</em>.
+        I now keep the project alive for whoever wants to use it to create
+        advanced in app surveys for free.
       </div>
       <div className="youtube-container">
         <iframe

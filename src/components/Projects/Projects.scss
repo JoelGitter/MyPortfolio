@@ -5,12 +5,13 @@
 }
 
 .project {
-  margin: 10px;
-  width: 345;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
 }
 
 @media (max-width: 767px) {
   .projects-container {
-    margin-left: -60px;
+    // margin-left: -60px;
   }
 }

@@ -1,14 +1,28 @@
-.youtube-container {
-  justify-content: center;
-  margin: 0 auto;
-  width: 700px;
-  height: 393.75px;
-}
-
 iframe {
   display: block;
 }
 
-.text-container {
-  margin-left: 80px;
+@media (min-width: 767px) {
+  .text-container {
+    margin-left: 80px;
+  }
+  .youtube-container {
+    justify-content: center;
+    margin: 40px auto;
+    width: 700px;
+    height: 393.75px;
+  }
+}
+
+@media (max-width: 767px) {
+  .text-container {
+    margin-left: 10px;
+    align-items: center;
+  }
+  .youtube-container {
+    justify-content: center;
+    margin: 0 auto;
+    width: 280px;
+    height: 157.5px;
+  }
 }

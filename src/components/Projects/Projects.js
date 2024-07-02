@@ -34,9 +34,10 @@ function Projects() {
                 Markt POS
               </Typography>
               <Typography variant="body2" color="text.secondary">
-                Markt POS is a Grocey Store management platform and Point of
-                Sale system. It is made for mom and pop grocers including
-                butchers, ethnic markets, and health food stores.
+                Markt POS is a comprehensive grocery store management platform
+                and point-of-sale system designed specifically for small
+                businesses, including butchers, ethnic markets, and health food
+                stores.
               </Typography>
             </CardContent>
             <CardActions>
