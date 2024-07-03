@@ -16,7 +16,9 @@ function MarktPOS() {
         As the product grew I moved into the role of Product Manager. Due to the
         success of the product, we were acuired by Quilt Software in 2022. We
         have now grown to have 100s of stores all across America and millions in
-        ARR.
+        ARR. <br />
+        <br />
+        <em>Technologies: C#, .NET, AngularJS, Angular, SQL Server, Azure</em>
         <img className="product-screenshot" src={dashboard} />
         <br />
         There is a highly customizable checkstand system paired with state of
