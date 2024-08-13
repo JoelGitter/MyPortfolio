@@ -7,6 +7,9 @@ function MarktPOS() {
   return (
     <div className="container">
       <div className="about-header">Markt POS</div>
+      <div className="sub-header">
+        <em>2016 • Austin TX • Work</em>
+      </div>
       <div className="text-container">
         Markt POS is a Grocey Store management platform and Point of Sale
         system. It is made for mom and pop grocers including butchers, ethnic
