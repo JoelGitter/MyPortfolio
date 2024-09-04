@@ -56,7 +56,7 @@ function SideNav() {
                 marginLeft: 40,
                 fontSize: "14px",
               }}>
-              IPhone Flight Feature
+              IPhone Flight Tracking
             </Link>
           </li>
         </ul>
