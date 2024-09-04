@@ -49,6 +49,16 @@ function SideNav() {
               User Vista
             </Link>
           </li>
+          <li>
+            <Link
+              to={"/iphone-flight-feature"}
+              style={{
+                marginLeft: 40,
+                fontSize: "14px",
+              }}>
+              IPhone Flight Feature
+            </Link>
+          </li>
         </ul>
       </nav>
     </div>

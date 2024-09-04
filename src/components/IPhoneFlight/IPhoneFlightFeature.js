@@ -6,7 +6,7 @@ import "./IPhoneFlightFeature.scss";
 function IPhoneFlightFeature() {
   return (
     <div className="container">
-      <div className="about-header">Markt POS</div>
+      <div className="about-header">IPhone Message Flight Tracking</div>
       <div className="sub-header">
         <em>2024 • Austin TX • Hobby</em>
       </div>
@@ -14,9 +14,15 @@ function IPhoneFlightFeature() {
         This is my idea for an improvement to Apple's Flight Tracking feature in
         messages. <br />
         <br />
-        This will hopefully solve the issue easily keeping track of someone
-        else's flight. Most likely, someone you are going to pick up from the
-        airport.
+        I constantly have the problem of keeping track of flights for friends
+        and family when I am going to pick them up from the airport. The preview
+        flight feature is cool but it is annoying that I have to go back to that
+        message constantly and click on it. I think it would be a lot easier to
+        be able to attach it to your message with that person.
+        <br />
+        <br />
+        With this feature, users will be able to track flights for different
+        people in their respective threads.
         <br />
         <br />
         <br />
