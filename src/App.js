@@ -11,6 +11,7 @@ import About from "./components/About/About";
 import SideNav from "./components/SideNav/SideNav";
 import MarktPOS from "./components/MarktPOS/MarktPOS";
 import UserVista from "./components/UserVista/UserVista";
+import IPhoneFlightFeature from "./components/IPhoneFlight/IPhoneFlightFeature";
 import { useState } from "react";
 import ReactGA from "react-ga4";
 import "./styles/styles.scss";
@@ -50,6 +51,11 @@ function App() {
           <Route exact path="/projects" element={<Projects />} />
           <Route exact path="/marktpos" element={<MarktPOS />} />
           <Route exact path="/user-vista" element={<UserVista />} />
+          <Route
+            exact
+            path="/iphone-flight-feature"
+            element={<IPhoneFlightFeature />}
+          />
         </Routes>
       </div>
     </Router>
