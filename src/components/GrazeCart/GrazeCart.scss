@@ -1,0 +1,34 @@
+$text-top-margin: 50px;
+
+.text-container {
+  a {
+    display: inline;
+    color: #04aa6d;
+    text-decoration: underline;
+  }
+
+  .product-screenshot {
+    width: 100%;
+    max-width: 700px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+}
+
+@media (min-width: 1000px) {
+  .text-container {
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: $text-top-margin;
+  }
+}
+
+@media (max-width: 1000px) {
+  .text-container {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: $text-top-margin;
+  }
+}

@@ -8,18 +8,26 @@ function MarktPOS() {
     <div className="container">
       <div className="about-header">Markt POS</div>
       <div className="sub-header">
-        <em>2016 • Austin TX • Work</em>
+        <em>2016 - Current • Austin TX • Work</em>
       </div>
       <div className="text-container">
-        Markt POS is a Grocey Store management platform and Point of Sale
+        Markt POS is a Grocery Store management platform and Point of Sale
         system. It is made for mom and pop grocers including butchers, ethnic
         markets, and health food stores. I was hired on this product at the
         startup phase as a Software Engineer. <br />
         <br />
         As the product grew I moved into the role of Product Manager. Due to the
-        success of the product, we were acuired by Quilt Software in 2022. We
+        success of the product, we were acquired by Quilt Software in 2022. We
         have now grown to have 100s of stores all across America and millions in
         ARR. <br />
+        <br />
+        As Product Manager, I have taken numerous features from conception to
+        launch, working closely with customers to understand their needs and
+        translating those into product requirements. I have also led key
+        integrations including Twilio for SMS notifications, Zapier for workflow
+        automation, QuickBooks for accounting sync, and many more that help our
+        customers run their businesses more efficiently.
+        <br />
         <br />
         <em>Technologies: C#, .NET, AngularJS, Angular, SQL Server, Azure</em>
         <img className="product-screenshot" src={dashboard} />
@@ -29,6 +37,12 @@ function MarktPOS() {
         profits and keep a close eye on things when they are away.
         <br />
         <img className="product-screenshot" src={volumeTrends} />
+        <br />
+        <br />
+        Check it out at{" "}
+        <a href="https://www.marktpos.com" target="_blank" rel="noreferrer">
+          marktpos.com
+        </a>
       </div>
     </div>
   );

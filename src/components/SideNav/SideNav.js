@@ -41,6 +41,26 @@ function SideNav() {
           </li>
           <li>
             <Link
+              to={"/grazecart"}
+              style={{
+                marginLeft: 40,
+                fontSize: "14px",
+              }}>
+              GrazeCart
+            </Link>
+          </li>
+          <li>
+            <Link
+              to={"/ai-assistant-hub"}
+              style={{
+                marginLeft: 40,
+                fontSize: "14px",
+              }}>
+              AI Assistant Hub
+            </Link>
+          </li>
+          <li>
+            <Link
               to={"/user-vista"}
               style={{
                 marginLeft: 40,
@@ -57,6 +77,16 @@ function SideNav() {
                 fontSize: "14px",
               }}>
               IPhone Flight Tracking
+            </Link>
+          </li>
+          <li>
+            <Link
+              to={"/kids-dictionary"}
+              style={{
+                marginLeft: 40,
+                fontSize: "14px",
+              }}>
+              Kids Dictionary
             </Link>
           </li>
         </ul>

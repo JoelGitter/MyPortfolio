@@ -1,0 +1,22 @@
+.app-screenshots {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px 0;
+
+  img {
+    height: 400px;
+    width: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+}
+
+@media (max-width: 1000px) {
+  .app-screenshots {
+    img {
+      height: 300px;
+    }
+  }
+}

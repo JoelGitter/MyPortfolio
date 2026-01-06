@@ -12,6 +12,9 @@ import SideNav from "./components/SideNav/SideNav";
 import MarktPOS from "./components/MarktPOS/MarktPOS";
 import UserVista from "./components/UserVista/UserVista";
 import IPhoneFlightFeature from "./components/IPhoneFlight/IPhoneFlightFeature";
+import AIAssistantHub from "./components/AIAssistantHub/AIAssistantHub";
+import GrazeCart from "./components/GrazeCart/GrazeCart";
+import KidsDictionary from "./components/KidsDictionary/KidsDictionary";
 import { useState } from "react";
 import ReactGA from "react-ga4";
 import "./styles/styles.scss";
@@ -56,6 +59,13 @@ function App() {
             path="/iphone-flight-feature"
             element={<IPhoneFlightFeature />}
           />
+          <Route
+            exact
+            path="/ai-assistant-hub"
+            element={<AIAssistantHub />}
+          />
+          <Route exact path="/grazecart" element={<GrazeCart />} />
+          <Route exact path="/kids-dictionary" element={<KidsDictionary />} />
         </Routes>
       </div>
     </Router>
