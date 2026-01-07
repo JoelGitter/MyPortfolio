@@ -10,14 +10,20 @@ function GrazeCart() {
         <em>2025 - Current • E-commerce Platform • Work</em>
       </div>
       <div className="text-container">
-        GrazeCart is an all-in-one point-of-sale and e-commerce platform
-        designed specifically for direct-to-consumer food sales.
+        GrazeCart is a B2B2C e-commerce platform designed specifically for
+        direct-to-consumer food sales. As the Senior Product Manager, I was
+        tasked to manage this product alongside Markt POS.
         <br />
         <br />
         The platform serves farmers, butcher shops, and fresh food retailers who
-        sell directly to consumers through multiple channels—both online and at
+        sell directly to consumers through multiple channels, both online and at
         physical farm stores. It combines online store capabilities with
         in-person farm store operations.
+        <br />
+        <br />
+        I have led the development of key features including Gift Cards, Point
+        of Sale improvements, and quick service restaurant modifiers that help
+        our customers streamline their operations and grow their businesses.
         <br />
         <br />
         <img
