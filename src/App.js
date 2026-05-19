@@ -11,7 +11,6 @@ import About from "./components/About/About";
 import SideNav from "./components/SideNav/SideNav";
 import MarktPOS from "./components/MarktPOS/MarktPOS";
 import UserVista from "./components/UserVista/UserVista";
-import IPhoneFlightFeature from "./components/IPhoneFlight/IPhoneFlightFeature";
 import AIAssistantHub from "./components/AIAssistantHub/AIAssistantHub";
 import GrazeCart from "./components/GrazeCart/GrazeCart";
 import KidsDictionary from "./components/KidsDictionary/KidsDictionary";
@@ -54,11 +53,6 @@ function App() {
           <Route exact path="/projects" element={<Projects />} />
           <Route exact path="/marktpos" element={<MarktPOS />} />
           <Route exact path="/user-vista" element={<UserVista />} />
-          <Route
-            exact
-            path="/iphone-flight-feature"
-            element={<IPhoneFlightFeature />}
-          />
           <Route
             exact
             path="/ai-assistant-hub"

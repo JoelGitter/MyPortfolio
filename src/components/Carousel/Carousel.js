@@ -6,7 +6,6 @@ import CarouselCaption from "react-bootstrap/CarouselCaption";
 import "bootstrap/dist/css/bootstrap.min.css";
 import dashboard from "../../assets/dashboard.png";
 import surveys from "../../assets/surveys.png";
-import iphoneFlight from "../../assets/IPhoneFlight.png";
 
 function ControlledCarousel() {
   const [index, setIndex] = useState(0);
@@ -29,15 +28,6 @@ function ControlledCarousel() {
         <Carousel.Caption>
           <h3>Second slide label</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item interval={2000}>
-        <img className="profile-image" src={iphoneFlight} />
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

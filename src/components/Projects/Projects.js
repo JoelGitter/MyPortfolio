@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import "./Projects.scss";
 import dashboard from "../../assets/dashboard.png";
 import surveys from "../../assets/surveys.png";
-import iphoneFlight from "../../assets/IPhoneFlight.png";
 import gcImage from "../../assets/gc.webp";
 import assistantHub from "../../assets/assistanthub.png";
 import kd2 from "../../assets/kd2.png";
@@ -50,15 +49,6 @@ function Projects() {
       link: "/ai-assistant-hub",
       website: "https://myassistanthub.com",
       tags: ["Chrome Extension", "AI", "Productivity"],
-    },
-    {
-      title: "IPhone Flight Tracking",
-      description:
-        "A feature improvement concept for the iPhone messaging app to make tracking flights of friends and family easier. Designed using Figma.",
-      image: iphoneFlight,
-      link: "/iphone-flight-feature",
-      website: null,
-      tags: ["UX Design", "Concept", "Mobile"],
     },
     {
       title: "Kids Dictionary",

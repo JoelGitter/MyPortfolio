@@ -71,16 +71,6 @@ function SideNav() {
           </li>
           <li>
             <Link
-              to={"/iphone-flight-feature"}
-              style={{
-                marginLeft: 40,
-                fontSize: "14px",
-              }}>
-              IPhone Flight Tracking
-            </Link>
-          </li>
-          <li>
-            <Link
               to={"/kids-dictionary"}
               style={{
                 marginLeft: 40,
