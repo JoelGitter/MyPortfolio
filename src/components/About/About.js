@@ -120,6 +120,9 @@ function About() {
             Connect with me on LinkedIn
           </a>
         </p>
+        <p className="section-text center-text">
+          <a href="mailto:joelhenrycl@gmail.com">joelhenrycl@gmail.com</a>
+        </p>
       </div>
     </div>
   );
